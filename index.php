@@ -1,4 +1,5 @@
 <?php?>
+<h1>Create your Wordpress Site in 1min!</h1>
 <form method="post" action="action.php">
   <p>Name of your database :</p>
   <input type="text" name="dbname"/>
@@ -9,7 +10,7 @@
   <p>Your host data base :</p>
   <input type="text" name="dbhost" value="">
   <p>Do you want a prefix for you wp tables ?</p>
-  <input type="checkbox" name="" value="">
+  <input type="checkbox" name="createdb" value="">
   <p>Your website name ?</p>
   <input type="text" name="sitename" value="">
   <p>Site URL ?</p>
@@ -22,4 +23,5 @@
   <input type="mail" name="email" value="">
   <p>SE visibility ?</p>
   <input type="checkbox" name="visibility" value="">
+  <button type="submit" name="btnexec">Submit</button>
 </form>
