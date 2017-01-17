@@ -9,8 +9,8 @@
   <input type="text" name="dbpwd" value="">
   <p>Your host data base :</p>
   <input type="text" name="dbhost" value="">
-  <p>Do you want a prefix for you wp tables ?</p>
-  <input type="checkbox" name="createdb" value="">
+  <p>Database doesn't exist ?</p>
+  <input type="checkbox" name="newdb" value="">
   <p>Your website name ?</p>
   <input type="text" name="sitename" value="">
   <p>Site URL ?</p>
