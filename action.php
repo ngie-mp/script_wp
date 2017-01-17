@@ -15,6 +15,7 @@
     $cmdConfig = "wp core config --dbname=".$dbName." --dbuser=".$dbUser." --dbpass=".$dbPwd." --locale=en_EN";
     $cmdCreateDB = "wp db create";
     $cmdInstall = "wp core install --admin_user=".$admUser." --admin_password=".$admPwd." --admin_email=".$admMail." --url=".$siteUrl." --title=".$siteName." --skip-email";
+
     $newWordpress = false;
 
 
@@ -33,6 +34,7 @@
     }
 
 ?>
+
 <?php if($newWordpress):?>
 <div>
   <h1>Your WP website named <?php echo($siteName);?> have been created with succes!</h1>

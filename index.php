@@ -21,7 +21,7 @@
   <input type="text" name="wpwd" value="">
   <p>Email ?</p>
   <input type="mail" name="email" value="">
-  <p>SE visibility ?</p>
-  <input type="checkbox" name="visibility" value="">
+  <p>Change Vhost</p>
+  <input type="checkbox" name="vhost" value="" checked="chechked"> <br>
   <button type="submit" name="btnexec">Submit</button>
 </form>
